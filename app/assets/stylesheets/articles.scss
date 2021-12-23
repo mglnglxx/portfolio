@@ -12,8 +12,7 @@ body{
 }
 
 .cursive{
-  font-family: 'Merriweather', serif;
-  font-size: 14px;
+  font-style: oblique;
 }
 
 .url{
@@ -71,4 +70,10 @@ body{
   text-decoration-color: rgb(0, 191, 255);
   text-decoration-thickness: 2px;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 17px;
+  }
 }
