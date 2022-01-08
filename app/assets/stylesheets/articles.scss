@@ -41,10 +41,7 @@ body{
   cursor: s-resize;
 }
 
-.case1:hover{
-  background-image: url(../images/shazam.jpeg);
-  background-repeat: no-repeat;
-  background-position: center bottom;
+.case1:hover + .hide{
   width: 300px;
   display: block;
 }
